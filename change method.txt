@@ -1,0 +1,67 @@
+git remote -v  查询当前关联仓库
+git remote set-url origin git@gitee.com:lzove2/just-a-git.git
+git remote set-url origin https://github.com/1ovezoe-cn/newfortest.git
+
+my gitee    ID 1ovezoe           git name just-a-git
+my GitHub ID 1ovezoe-cn      git name newfortest
+
+
+
+
+git status   查看当前仓库状况
+
+git add .   把当前目录推送到本地
+git commit -m "改动"
+git push  推到远程仓库
+
+# 查看本地所有分支（当前分支前面带 *）
+git branch
+
+# 查看远程所有分支
+git branch -r
+
+# 查看本地 + 远程所有分支
+git branch -a
+
+# 查看分支最后一次提交信息（更详细）
+git branch -v
+
+# 创建新分支（停留在当前分支）
+git branch 分支名
+
+# 示例：创建 dev 分支
+git branch dev
+
+# 切换到指定分支
+git checkout 分支名
+
+# 把本地分支推送到远程（第一次推送）
+git push -u origin 分支名
+
+# 拉取远程最新分支信息
+git fetch
+
+# 删除本地已合并的分支
+git branch -d 分支名
+
+# 强制删除本地分支（未合并也删）
+git branch -D 分支名
+
+# 删除远程分支（谨慎使用）
+git push origin --delete 远程分支名
+
+# 重命名当前分支
+git branch -m 新分支名
+
+# 重命名指定分支
+git branch -m 旧分支名 新分支名
+
+# 把其他分支合并到当前分支(先切换到当前分支
+git merge 要合并的分支名
+
+bf6a02f79591e735ec3154db9056fafe
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCQvol2C+sxDiDo4Zh4d/kT95nNaKmXC/JnqxwnSlCzm37mhK6v68OqO3iEjlmlF00DF/cm2o/opd/z9hcAn9FePZSrFQRbg+JEMl9HbXXBiIg8Baju3yUVqhoXwwxS2bTLkEjuir3UeVNLG6UOhYdPB0id+dclFbe6TyGuFxjTINMstBQKzM+FvMfvQun4UOGE084gSeoTeu4zeq45om5ZISEfKZCJwA+Nh5cjJegeDgd2agXq3OusMbmUM7QhqGl2n9XYq6IrvQxo2JtUpEPyhbH6H/6AD+mZ9MQ6ComMAxB85Er95B430uwg9y0wVFXC46hzo8cE2mrJfGYvQbDAfOKZVJaVxgkGNJRPNTB0wnepvmwlaOdZU/rva7Q1arIq82HAajLTFVIWFsEUZRD8AlIYDoXBYt0CFSBUxlNaFQtzL8Tj4Vmzdt3WaJw5ZphpisebILBHcksKH4iGw9m4wgm1sNKZBEOxE32KftiLoDhid55Mv1MLXDUqi/3zr7M= 2321238169@qq.com
+
+
+
